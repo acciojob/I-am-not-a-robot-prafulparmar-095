@@ -6,16 +6,25 @@
   <title>I'm not a robot</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <h3 id="h">Please click on the identical tiles to verify that you are not a robot.</h3>
-  <div class="container" id="image-container"></div>
+<div class="container">
+        <h3 id="h">Please click on the identical tiles to verify that you are not a robot.</h3>
 
-  <div class="buttons">
-    <button id="reset" style="display: none;">Reset</button>
-    <button id="verify" style="display: none;">Verify</button>
-  </div>
+        <div id="images-container">
+            <img class="tile" src="" data-img="">
+            <img class="tile" src="" data-img="">
+            <img class="tile" src="" data-img="">
+            <img class="tile" src="" data-img="">
+            <img class="tile" src="" data-img="">
+            <img class="tile" src="" data-img="">
+        </div>
 
-  <p id="para"></p>
+        <p id="para"></p>
+
+        <div class="buttons">
+            <button id="reset" style="display: none;">Reset</button>
+            <button id="verify" style="display: none;">Verify</button>
+        </div>
+    </div>
 
   <script src="script.js"></script>
 </body>
